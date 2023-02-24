@@ -7,7 +7,7 @@ body {
 }
 
 .container-fluid {
-    padding: 3% 15%;
+    padding: 3% 15% 6%;
 }
 
 h1 {
@@ -48,14 +48,19 @@ h1 {
 /* Title Img */
 
 .phone-dog-img {
-    width: 60%;
+    max-width: 70%;
+    max-height: 70%;
     transform: rotate(25deg);
+    position: absolute;
+    right: 23%;
 }
 
 /* Features section */
 
 #features {
 padding: 7% 15%;
+background-color: #fff;
+position: relative;
 }
 
 h3 {
@@ -116,4 +121,15 @@ h2{
 
 .carousel-item{
     padding: 7% 15%;
+}
+
+/* Pricing section */
+
+#pricing{
+    padding: 100px;
+    text-align: center;
+}
+
+.pricing-col{
+    padding: 2% 3%;
 }

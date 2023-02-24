@@ -2,21 +2,41 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    color: #fff;
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+}
+
+p{
+    color: #8f8f8f;
+}
+
+                                                                                    /* Title section */
+
 #title {
     background-color: #ff4c68;
+}
+
+.h1-title{
+    font-size: 3.5rem;
+    line-height: 1.5;
+    font-weight: 900;
 }
 
 .container-fluid {
     padding: 3% 15% 6%;
 }
 
-h1 {
-    font-family: 'Montserrat', sans-serif;
-    font-size: 3.5rem;
-    line-height: 1.5;
-    font-weight: 900;
-    color: #fff;
-}
 
 /* Navigation Bar */
 
@@ -55,7 +75,7 @@ h1 {
     right: 23%;
 }
 
-/* Features section */
+                                                                            /* Features section */
 
 #features {
 padding: 7% 15%;
@@ -63,15 +83,6 @@ background-color: #fff;
 position: relative;
 }
 
-h3 {
-    font-family: 'Montserrat', sans-serif;
-    font-weight: 700;
-    font-size: 1.3rem;
-}
-
-p{
-    color: #8f8f8f;
-}
 
 .box {
     text-align: center;
@@ -87,7 +98,7 @@ p{
     color: #ff4c68;
 }
 
-/* Testimonials Section */
+                                                                        /* Testimonials Section */
 
 #testimonials {
     background-color: #ef8172;
@@ -95,8 +106,7 @@ p{
     color: #fff;
 }
 
-h2{
-    font-family: 'Montserrat', sans-serif;
+.h2-second{
     font-weight: 700;
     font-size: 3rem;
     line-height: 1.5;
@@ -132,4 +142,58 @@ h2{
 
 .pricing-col{
     padding: 2% 3%;
+}
+
+                                                                                /*  cta section */
+#cta{
+    background-color: #ff4c68;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.h3-cta{
+    font-weight: 900;
+    color: #fff;
+    font-size: 3.5rem;
+}
+
+                                                                                /* footer section */
+
+#footer{
+    background-color: #fff;
+    text-align: center;
+    padding: 7% 15%;
+}
+
+.icons-footer{
+margin: 20px 10px;
+}
+
+                                                        /* Mobile sizes */
+
+@media (max-width:990px) {
+    .phone-dog-img{
+        margin-top: 100px;
+        transform: rotate(0);
+        position: static;
+    }
+
+    #title{
+        padding-bottom: 1rem;
+        text-align: center;
+    }
+
+    .phone-dog-img-div{
+        text-align: center;
+    }
+
+    .container-fluid {
+        padding: 3% 15% 0;
+    }
+}
+
+@media (max-width:1130px) and (min-width:1000px) {
+    .phone-dog-img{
+        right: 160px;
+    }
 }

@@ -2,16 +2,6 @@
 
 Welcome to TinDog - the ultimate platform to help your furry friends find love and companionship. TinDog brings dogs together in a fun and easy way. Check out the simple HTML code to create your own copycat website of Tinder for dogs.
 
-## Table of Contents
-
-- [Getting Started](#getting-started)
-- [Features](#features)
-- [Testimonials](#testimonials)
-- [Press](#press)
-- [Pricing](#pricing)
-- [Call to Action](#call-to-action)
-- [Footer](#footer)
-
 # Getting Started
 
 To set up your TinDog website, follow these steps:
